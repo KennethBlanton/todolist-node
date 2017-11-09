@@ -49,8 +49,6 @@ $('.add-button').on('click', function(e){
 $('body').on('click', '.delete', function(e){
 	console.log(e, 'delete');
 
-	// DELETE /item/1
-
 	var $li = $(this).parents('li');
 
 	var id = $li.attr('data-id');
